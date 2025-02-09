@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lista de Livros - Livraria Python</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="images/logo.png" alt="Logo" width="60" height="60" class="rounded-circle me-2">
+                <span class="fw-bold">LP - Livraria Python</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="livros.html">Livros</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="text-center">Lista de Livros</h1>
+        <small class="text-center">Imagens de capa fornecidas por: <a href="https://openlibrary.org/dev/docs/api/covers">https://openlibrary.org/dev/docs/api/covers</a></small>
+        <ul id="livros-lista" class="list-group mt-3"></ul>
+    </div>
+
+    <script>
+        fetch('livros.json')
+            .then(response => response.json())
+            .then(data => {
+                const lista = document.getElementById('livros-lista');
+                data.forEach(livro => {
+                    const item = document.createElement('li');
+                    item.className = 'list-group-item';
+                    item.innerHTML = `
+                        <div class="d-flex align-items-start">
+                            <img src="https://covers.openlibrary.org/b/isbn/${livro.isbn}-L.jpg" class="me-3 rounded" width="100" height="160" alt="${livro.titulo}">
+                            <div>
+                                <h5 class="mb-1">${livro.titulo}</h5>
+                                <p class="mb-0"><strong>ISBN:</strong> ${livro.isbn}</p>
+                                <p class="mb-0"><strong>Gênero:</strong> ${livro.genero}</p>
+                                <p class="mb-0"><strong>Autor(es):</strong> ${livro.autores.join(', ')}</p>
+                                <p class="mb-0"><strong>Data de publicação:</strong> ${livro.data}</p>
+                            </div>
+                        </div>
+                    `;
+                    lista.appendChild(item);
+                });
+            });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

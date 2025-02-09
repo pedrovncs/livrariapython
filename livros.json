@@ -1,0 +1,182 @@
+[
+    {
+        "titulo": "O Senhor dos Anéis: O Retorno do Rei",
+        "genero": "Fantasia",
+        "autores": ["J.R.R. Tolkien"],
+        "data": "1955-10-20",
+        "paginas": 432,
+        "idioma": "Inglês",
+        "isbn": "978-0-261-10237-8"
+    },
+    {
+        "titulo": "O Hobbit",
+        "genero": "Fantasia",
+        "autores": ["J.R.R. Tolkien"],
+        "data": "1937-09-21",
+        "paginas": 310,
+        "idioma": "Inglês",
+        "isbn": "9780395520215"
+    },
+    {
+        "titulo": "Duna",
+        "genero": "Ficção Científica",
+        "autores": ["Frank Herbert"],
+        "data": "1965-08-01",
+        "paginas": 688,
+        "idioma": "Inglês",
+        "isbn": "978-0-441-17271-9"
+    },
+    {
+        "titulo": "1984",
+        "genero": "Distopia",
+        "autores": ["George Orwell"],
+        "data": "1949-06-08",
+        "paginas": 328,
+        "idioma": "Inglês",
+        "isbn": "978-0-452-28423-4"
+    },
+    {
+        "titulo": "Blade Runner",
+        "genero": "Ficção Científica",
+        "autores": ["Philip K. Dick"],
+        "data": "1968-06-01",
+        "paginas": 210,
+        "idioma": "Inglês",
+        "isbn": "978-0-345-35047-3"
+    },
+    {
+        "titulo": "Harry Potter e a Pedra Filosofal",
+        "genero": "Fantasia",
+        "autores": ["J.K. Rowling"],
+        "data": "1997-06-26",
+        "paginas": 223,
+        "idioma": "Inglês",
+        "isbn": "978-0-7475-3269-9"
+    },
+    {
+        "titulo": "Refatoração: Aperfeiçoando o Design de Código Existente",
+        "genero": "Tecnologia",
+        "autores": ["Martin Fowler"],
+        "data": "1999-07-08",
+        "paginas": 431,
+        "idioma": "Inglês",
+        "isbn": "978-0-201-48567-7"
+    },
+    {
+        "titulo": "Frankenstein",
+        "genero": "Ficção Científica",
+        "autores": ["Mary Shelley"],
+        "data": "1818-01-01",
+        "paginas": 280,
+        "idioma": "Inglês",
+        "isbn": "978-0-486-28211-4"
+    },
+    {
+        "titulo": "O Assassinato no Expresso do Oriente",
+        "genero": "Mistério",
+        "autores": ["Agatha Christie"],
+        "data": "1934-01-01",
+        "paginas": 256,
+        "idioma": "Inglês",
+        "isbn": "978-0-06-269366-2"
+    },
+    {
+        "titulo": "O Conde de Monte Cristo",
+        "genero": "Romance Histórico",
+        "autores": ["Alexandre Dumas"],
+        "data": "1844-08-28",
+        "paginas": 1276,
+        "idioma": "Francês",
+        "isbn": "978-0-14-044926-6"
+    },
+    {
+        "titulo": "Admirável Mundo Novo",
+        "genero": "Distopia",
+        "autores": ["Aldous Huxley"],
+        "data": "1932-08-30",
+        "paginas": 311,
+        "idioma": "Inglês",
+        "isbn": "978-0-06-085052-4"
+    },    
+    {
+        "titulo": "Orgulho e Preconceito",
+        "genero": "Romance Histórico",
+        "autores": ["Jane Austen"],
+        "data": "1813-01-28",
+        "paginas": 432,
+        "idioma": "Inglês",
+        "isbn": "978-0-19-280238-5"
+    },
+    {
+        "titulo": "A Arte da Guerra",
+        "genero": "Estratégia",
+        "autores": ["Sun Tzu"],
+        "data": "0001-01-01",
+        "paginas": 68,
+        "idioma": "Chinês",
+        "isbn": "9781603844666"
+    },
+    {
+        "titulo": "Watchmen",
+        "genero": "Graphic Novel",
+        "autores": ["Alan Moore", "Dave Gibbons"],
+        "data": "1987-09-01",
+        "paginas": 416,
+        "idioma": "Inglês",
+        "isbn": "978-0-930289-23-2"
+    },
+    {
+        "titulo": "O Homem no Castelo Alto",
+        "genero": "Ficção Científica",
+        "autores": ["Philip K. Dick"],
+        "data": "1962-10-01",
+        "paginas": 274,
+        "idioma": "Inglês",
+        "isbn": "9780544817289"
+    },
+    {
+        "titulo": "Clean Code",
+        "genero": "Tecnologia",
+        "autores": ["Robert C. Martin"],
+        "data": "2008-08-11",
+        "paginas": 464,
+        "idioma": "Inglês",
+        "isbn": "978-0-13-235088-4"
+    },
+    {
+        "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
+        "genero": "Fantasia",
+        "autores": ["J.R.R. Tolkien"],
+        "data": "1954-07-29",
+        "paginas": 423,
+        "idioma": "Inglês",
+        "isbn": "978-0-261-10235-4"
+    },
+    {
+        "titulo": "Harry Potter e a Ordem da Fênix",
+        "genero": "Fantasia",
+        "autores": ["J.K. Rowling"],
+        "data": "2003-06-21",
+        "paginas": 766,
+        "idioma": "Inglês",
+        "isbn": "978-0-439-35806-4"
+    },
+    {
+        "titulo": "Cama de Gato",
+        "genero": "Ficção Científica",
+        "autores": ["Kurt Vonnegut"],
+        "data": "1963-09-06",
+        "paginas": 287,
+        "idioma": "Inglês",
+        "isbn": "978-0-385-33348-1"
+    },
+    {
+        "titulo": "Maus",
+        "genero": "Graphic Novel",
+        "autores": ["Art Spiegelman"],
+        "data": "1980-12-01",
+        "paginas": 296,
+        "idioma": "Inglês",
+        "isbn": "978-0394747231"
+    }
+]
